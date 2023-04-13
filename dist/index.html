@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Color Flipper || Simple</title>
+  </head>
+  <body>
+    <nav class="grid grid-cols-2 bg-white border shadow-lg shadow-slate-400/30">
+      <h4
+        class="justify-center my-4 flex text-sky-500 text-lg font-medium items-center"
+      >
+        Color Flipper
+      </h4>
+      <ul
+        class="flex justify-center m-2 text-black font-medium text-lg items-center"
+      >
+        <li class="px-5">
+          <a href="index.html">Simple</a>
+        </li>
+        <li class="px-5">
+          <a href="hex.html">Hex</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="text-center m-auto my-80">
+        <h2
+          class="text-3xl text-white bg-black/90 w-3/12 m-auto py-1 font-medium rounded-md"
+        >
+          Background Color :
+          <span class="text-sky-500" id="color">#F1f5f8</span>
+        </h2>
+        <button
+          class="text-lg border-2 border-black rounded-md m-4 w-24 h-8 bg-black/20 hover:bg-black/50"
+          id="btn"
+        >
+          Click me
+        </button>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
